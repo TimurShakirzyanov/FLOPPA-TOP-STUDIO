@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    display: block;
+    width: 200px;
+    margin: auto;
+    text-decoration: none;
+}
+
+nav a{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.411);
+    text-align: center;
+}
+
+body {
+    background: url("bg.png");
+    background-size: cover;
+    background-position: center top;
+}
+
+h4 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+nav a:hover {
+    transform: scale(1.2);
+}
+.banner{
+    text-align: center;
+    background-image: url("bag.jpg");
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+h1{
+    color: rgb(255, 255, 255);  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 10px black;
+}
+.info{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(50% - 40px);
+    float: left;
+}
+#aboutUs img{
+    width: 50%;
+    float: right;
+}
+#aboutUs{
+  overflow: hidden;
+}
+.office{
+    background-image: url("планета.jpg");
+    width: 27%;
+    display: inline-block;
+border-radius: 20px;
+}
+#offices{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.office h5{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+}
+.office ul{
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+.office a{
+    display: inline-block;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(0, 0, 0, 0.363);
+    border-radius: 15px;
+    padding: 20px;
+    border: 5px solid rgba(255, 255, 255, 0.529);    
+}
+.office a:hover{
+border: 5px solid white;
+}
+.teammate{
+    background-color: rgba(0, 0, 0, 0.503);
+    border-radius: 20px;
+    width: 30%;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.teammate img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+#team{
+    text-align: center;
+}
+.teammate a{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 20px;
+    border: 5px;
+    display: inline-block;
+    padding: 5px;
+}
+.teammate a:hover{
+    border: 5px solid white;
+}
+.teammate *{
+    margin-bottom: 15px;
+}
