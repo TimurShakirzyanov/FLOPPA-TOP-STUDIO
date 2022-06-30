@@ -10,7 +10,7 @@
     text-decoration: none;
 }
 
-nav a{
+nav a {
     display: inline-block;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -47,20 +47,23 @@ h4 {
 nav a:hover {
     transform: scale(1.2);
 }
-.banner{
+
+.banner {
     text-align: center;
     background-image: url("bag.jpg");
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 20px;
     overflow: hidden;
 }
-h1{
-    color: rgb(255, 255, 255);  
+
+h1 {
+    color: rgb(255, 255, 255);
     margin-top: 20px;
     margin-bottom: 20px;
     text-shadow: 1px 1px 10px black;
 }
-.info{
+
+.info {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 20px;
     margin-left: 20px;
@@ -68,39 +71,52 @@ h1{
     width: calc(50% - 40px);
     float: left;
 }
-#aboutUs img{
-    width: 50%;
+.info h3{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#aboutUs img {
+    width: 45%;
     float: right;
+    border-radius: 20px;
 }
-#aboutUs{
-  overflow: hidden;
+
+#aboutUs {
+    overflow: hidden;
 }
-.office{
+
+.office {
     background-image: url("планета.jpg");
     width: 27%;
     display: inline-block;
-border-radius: 20px;
+    border-radius: 20px;
 }
-#offices{
+
+#offices {
     text-align: center;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.office h5{
+
+.office h5 {
     margin-top: 20px;
     margin-bottom: 10px;
     color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
 }
-.office ul{
+
+.office ul {
     margin-bottom: 20px;
     color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     list-style: none;
     background-color: rgba(0, 0, 0, 0.342);
 }
-.office a{
+
+.office a {
     display: inline-block;
     margin-bottom: 20px;
     color: rgb(255, 255, 255);
@@ -108,12 +124,14 @@ a{
     background-color: rgba(0, 0, 0, 0.363);
     border-radius: 15px;
     padding: 20px;
-    border: 5px solid rgba(255, 255, 255, 0.529);    
+    border: 5px solid rgba(255, 255, 255, 0.529);
 }
-.office a:hover{
-border: 5px solid white;
+
+.office a:hover {
+    border: 5px solid white;
 }
-.teammate{
+
+.teammate {
     background-color: rgba(0, 0, 0, 0.503);
     border-radius: 20px;
     width: 30%;
@@ -122,26 +140,103 @@ border: 5px solid white;
     color: rgb(255, 255, 255);
     margin-top: 20px;
 }
-.teammate img{
+
+.teammate img {
     width: 150px;
     height: 150px;
     border-radius: 100%;
     margin-top: 20px;
 }
-#team{
+
+#team {
     text-align: center;
 }
-.teammate a{
+
+.teammate a {
     color: rgb(255, 255, 255);
     background-color: black;
     border-radius: 20px;
-    border: 5px;
+    border: 5px solid rgb(0, 0, 0);
     display: inline-block;
     padding: 5px;
 }
-.teammate a:hover{
+
+.teammate a:hover {
     border: 5px solid white;
 }
-.teammate *{
+
+.teammate * {
     margin-bottom: 15px;
+}
+
+#jobs {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input, textarea {
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 90%;
+    padding: 8px;
+    max-width: 400px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    resize: none;
+}
+.jobs{
+    margin-bottom: 10px;
+}
+button{
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    line-height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+#games{
+    text-align: center;
+}
+.banner a {
+background-color: rgb(255, 255, 255);
+border-radius: 5px;
+color: black;
+border: 5px solid rgba(0, 0, 0, 0.499);
+margin-top: 10px;
+display: inline-block;
+padding: 5px;
+margin-bottom: 10px;
+}
+.banner a:hover{
+    border: 5px solid rgb(0, 0, 0);
+}
+@media (max-width: 600px){
+    .banner p{
+        background: rgba(255, 255, 255, 0.449);
+        padding: 10px;
+    }
+    .info{
+        width: auto;
+        float: none;
+    }
+    #aboutUs img{
+        width: auto;
+        float: none;
+    }
+    iframe{
+        width: 100%;
+    }
+    .office{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .teammate{
+        width: 100%;
+        margin-top: 10px;
+    }
 }
